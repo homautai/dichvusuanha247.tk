@@ -14972,6 +14972,11 @@ button.owl-next {
   background-color: #fff;
   box-shadow: 0 0 30px #cccccc73;
 }
+.w3l-feature-3 .grid-column4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
 .w3l-feature-3 .grid-column {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
@@ -17113,56 +17118,111 @@ body:after {
   }
 }
 
-.w3l-service-breadcrum .breadcrum-bg {
+.chong-tham-ho-boi .breadcrum-bg {
   background-size: cover;
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.81),
       rgba(38, 40, 40, 0.27)
     ),
-    url(../images/1.jpg);
+    url(../images/hoboi.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
 }
 
-.w3l-service-breadcrum .bread-crub-top {
+.chong-tham-ho-boi .bread-crub-top {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
-.w3l-service-breadcrum .breadcrum-bg h2 {
+.chong-tham-ho-boi .breadcrum-bg h2 {
   font-size: 44px;
   color: #fff;
   font-weight: 600;
 }
 
-.w3l-service-breadcrum .breadcrum-bg p {
+.chong-tham-ho-boi .breadcrum-bg p {
   font-size: 16px;
   color: #fff;
   line-height: 24px;
   max-width: 500px;
 }
 
-.w3l-service-breadcrum .breadcrum-bg p a {
+.chong-tham-ho-boi .breadcrum-bg p a {
   font-size: 16px;
   color: var(--primary-color);
 }
 
-.w3l-service-breadcrum .breadcrum-bg p a:hover {
+.chong-tham-ho-boi .breadcrum-bg p a:hover {
   text-decoration: underline;
   color: #fff;
 }
 
 @media (max-width: 736px) {
-  .w3l-service-breadcrum .breadcrum-bg h2 {
+  .chong-tham-ho-boi .breadcrum-bg h2 {
     font-size: 40px;
   }
 }
 
 @media (max-width: 600px) {
-  .w3l-service-breadcrum .breadcrum-bg h2 {
+  .chong-tham-ho-boi .breadcrum-bg h2 {
+    font-size: 35px;
+  }
+}
+
+
+.chong-tham-nha-ve-sinh .breadcrum-bg {
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.81),
+      rgba(38, 40, 40, 0.27)
+    ),
+    url(../images/nvsbg.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.chong-tham-nha-ve-sinh .bread-crub-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.breadcrum-bg h2 {
+  font-size: 44px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.breadcrum-bg p {
+  font-size: 16px;
+  color: #fff;
+  line-height: 24px;
+  max-width: 500px;
+}
+
+.breadcrum-bg p a {
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.breadcrum-bg p a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+@media (max-width: 736px) {
+  .breadcrum-bg h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .breadcrum-bg h2 {
     font-size: 35px;
   }
 }
