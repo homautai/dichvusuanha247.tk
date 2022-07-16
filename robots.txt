@@ -1,7 +1,18 @@
 User-agent: Googlebot
 Disallow: /nogooglebot/
+Disallow: /assets/css
+Disallow: /assets/js
+Disallow: /assets/fonts
 
 User-agent: *
 Allow: /
+Disallow: assets/css/style-all.css
+Disallow: assets/css/style-starter2.css
+Disallow: assets/css/all.css
+Disallow: assets/js/jquery-3.3.1.min.js
+Disallow: assets/js/owl.carousel.js
+Disallow: assets/js/all.js
+Disallow: assets/js/lightbox-plus-jquery.min.js
+Disallow: assets/js/owl.carousel.js
 
 Sitemap: https://dichvusuanha247.tk/sitemap.xml
