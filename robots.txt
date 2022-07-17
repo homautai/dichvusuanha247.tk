@@ -3,6 +3,8 @@ Disallow: /nogooglebot/
 Disallow: /assets/css
 Disallow: /assets/js
 Disallow: /assets/fonts
+Disallow: /contact.html
+Disallow: /services.html
 
 User-agent: *
 Allow: /
