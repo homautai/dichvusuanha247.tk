@@ -17230,6 +17230,25 @@ body:after {
   align-items: center;
 }
 
+.ong-nuoc .breadcrum-bg {
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.81),
+      rgba(38, 40, 40, 0.27)
+    ),
+    url(../images/ong-nuoc/ong-nuoc.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.ong-nuoc .bread-crub-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
 .breadcrum-bg h2 {
   font-size: 44px;
   color: #fff;
