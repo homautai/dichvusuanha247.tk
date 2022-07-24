@@ -17248,6 +17248,25 @@ body:after {
   align-items: center;
 }
 
+.ong-nuoc2 .breadcrum-bg {
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.81),
+      rgba(38, 40, 40, 0.27)
+    ),
+    url(../images/ong-nuoc/ongnuoc.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.ong-nuoc2 .bread-crub-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
 .breadcrum-bg h2 {
   font-size: 44px;
   color: #fff;
@@ -17283,7 +17302,7 @@ body:after {
   }
 }
 
-/*# sourceMappingURL=style-all2.css.map */
+/*# sourceMappingURL=style-all.css.map */
 
 .bottom_icon {
   position: fixed;
