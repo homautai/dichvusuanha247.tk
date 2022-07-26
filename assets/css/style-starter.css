@@ -16152,7 +16152,7 @@ nav#breadcrumbs a {
 .w3l-content-with-photo-4 .content-photo-info p {
   color: #5E6271;
   line-height: 28px;
-  padding-right: 30px;
+  /* padding-right: 30px; */
   font-weight: 400;
 }
 
