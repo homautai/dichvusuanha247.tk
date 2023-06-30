@@ -17,4 +17,4 @@ Disallow: assets/js/all.js
 Disallow: assets/js/lightbox-plus-jquery.min.js
 Disallow: assets/js/owl.carousel.js
 
-Sitemap: https://dichvusuanha247.tk/sitemap.xml
+Sitemap: https://dichvusuanha247.website/sitemap.xml
